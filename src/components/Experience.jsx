@@ -1,5 +1,5 @@
 import React from 'react'
-import {SiJava, SiCsharp, SiPython, SiReact, SiCplusplus, SiTailwindcss, SiDotnet, SiJavascript} from 'react-icons/si'
+import {SiJava, SiCsharp, SiPython, SiReact, SiCplusplus, SiC, SiDotnet, SiJavascript} from 'react-icons/si'
 
 const Experience = () => {
   return (
@@ -33,12 +33,12 @@ const Experience = () => {
                     <p className="my-4 group-hover:text-[#00d8ff] duration-300">React</p>
                 </div>
                 <div className='group shadow-md shadow-black  hover:scale-110 duration-500 '>
-                    <SiTailwindcss className=" fill-white mx-auto group-hover:fill-cyan-300 duration-300" size={125}/>
-                    <p className="my-4 group-hover:text-cyan-300 duration-300">Tailwind CSS</p>
+                    <SiC className=" fill-white mx-auto group-hover:fill-[#59115c] duration-300" size={125}/>
+                    <p className="my-4 group-hover:text-[#59115c] duration-300">C</p>
                 </div>
                 <div className='group shadow-md shadow-black  hover:scale-110 duration-500 '>
-                    <SiDotnet className=" fill-white mx-auto group-hover:fill-[#823085] duration-300" size={125}/>
-                    <p className="my-4 group-hover:text-[#823085] duration-300">DotNet</p>
+                    <SiDotnet className=" fill-white mx-auto group-hover:fill-[#59325a] duration-300" size={125}/>
+                    <p className="my-4 group-hover:text-[#59325a] duration-300">DotNet</p>
                 </div>
                 <div className='group shadow-md shadow-black  hover:scale-110 duration-500 '>
                     <SiCplusplus className=" fill-white mx-auto group-hover:fill-[#8c1eff] duration-300" size={125}/>
