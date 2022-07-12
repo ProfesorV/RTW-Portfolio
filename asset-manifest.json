@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/RTW-Portfolio/static/css/main.74674514.css",
+    "main.js": "/RTW-Portfolio/static/js/main.78e6c4b3.js",
+    "index.html": "/RTW-Portfolio/index.html",
+    "main.74674514.css.map": "/RTW-Portfolio/static/css/main.74674514.css.map",
+    "main.78e6c4b3.js.map": "/RTW-Portfolio/static/js/main.78e6c4b3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.74674514.css",
+    "static/js/main.78e6c4b3.js"
+  ]
+}
