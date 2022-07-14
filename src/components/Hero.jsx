@@ -11,10 +11,10 @@ const Hero = () => {
       <div className='flex'>
       <p className='text-[#00FF00]'>Made with love using</p> 
       <Typed className='text-[#61DBFB] md:text-5xl sm:text-4xl text-xl font-bold pl-2'
-      strings={['React']} typeSpeed={60} backspeed={80} loop/>
-      <SiReact className='fill-[#61DBFB] mt-2' size={25} loop/>
+      strings={['React']} />
+      <SiReact className='fill-[#61DBFB] mt-2' size={25}/>
       <Typed className='text-[#dd4814] md:text-5xl sm:text-4xl text-xl font-bold pl-2'
-      strings={['Ubuntu']} typeSpeed={60} backspeed={80} loop/>
+      strings={['Ubuntu']} />
       <SiUbuntu className='fill-[#dd4814] mt-2' size={25}/>
       </div>
       <h1 className='text-4xl sm:text-7xl font-bold text-[#f9f2f2]'>Victor C</h1>
