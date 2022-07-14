@@ -18,12 +18,12 @@ const NavigationBar = () => {
         {/* Navigation Menu */}
             <ul className='hidden md:flex'>
             <li>
-            <Link className="group hover:text-[#2a7a80] duration-300" to="base" smooth={true} duration={500}>Top
+            <Link className="group hover:text-[#2a7a80] duration-300" to="base" smooth={true} duration={500}>
             <BsArrowClockwise className='ml-2 group-hover:rotate-180 duration-500' size={25}/>
             </Link>
             </li>
             <li>
-            <Link className="group hover:text-[#e9da50] duration-300" to="experience" smooth={true} duration={500}> Experience
+            <Link className="group hover:text-[#e9da50] duration-300" to="experience" smooth={true} duration={500}>
             <MdComputer className='ml-2 group-hover:rotate-180 duration-500' size={25}/>
             </Link>
             </li>
