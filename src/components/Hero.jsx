@@ -9,7 +9,7 @@ const Hero = () => {
     {/* Container for base*/}
     <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full'>
       <div className='flex'>
-      <p className='text-[#00FF00]'>Made with love using</p> 
+      <p className='text-[#00FF00]'>Made and Developed on:</p> 
       <Typed className='text-[#61DBFB] md:text-5xl sm:text-4xl text-xl font-bold pl-2'
       strings={['React']} />
       <SiReact className='fill-[#61DBFB] mt-2' size={25}/>
@@ -19,7 +19,8 @@ const Hero = () => {
       </div>
       <h1 className='text-4xl sm:text-7xl font-bold text-[#f9f2f2]'>Victor C</h1>
       <Typed className='text-4xl sm:text-7xl font-bold text-[#9c9898]'
-      strings={['Software Engineer', 'MIS Specialist','Embedded Systems Developer','Information Technology Technician']} typeSpeed={50} backspeed={60} loop/>
+      strings={['Information Technology Specialist', 'Information Technology Technician',
+      'Computer Science Instructor','Data Scientist','MIS Specialist']} typeSpeed={50} backspeed={60} loop/>
       <div>
         <button className='text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#00FF00] hover:border-black hover:text-black'>Welcome 
         <span className='group-hover:rotate-180 duration-500'>
